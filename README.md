@@ -9,7 +9,7 @@ This repo contains load testing scripts for our SENG 533 project using [K6](http
 - Access to your EC2 instance's public DNS or IP
 
 ## 📁 Structure
-
+```
 ec2-load-testing/ 
 ├── tests/ 
     │ 
@@ -20,7 +20,7 @@ ec2-load-testing/
     └── baseline-test.js 
 ├── results/
 ├── README.md
-
+```
 
 ## 🚀 Running the Tests
 
