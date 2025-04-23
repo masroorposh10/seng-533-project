@@ -27,10 +27,8 @@ ec2-load-testing/
 Update the test files with your EC2 endpoint:
 ```js
 http.get('http://533-load-53753845.us-east-1.elb.amazonaws.com');
-
-## Run K6
-
 ```
+## Run K6
 ```
 k6 run tests/spike-test.js
 k6 run tests/soak-test.js
